@@ -1,0 +1,23 @@
+.logo {
+    margin: auto;
+    font-size: 2.5em;
+    font-weight: 400;
+    color: #CA1551;
+}
+
+.logo span {
+    font-size: .5em;
+    color: #345995;
+}
+
+@media(min-width: 600px) {
+    .logo {
+        grid-area: logo;
+        float: left;
+        margin-left: 10vw;
+        font-size: 2em;
+    }
+    .logo span {
+        font-size: .35em;
+    }
+}

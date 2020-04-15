@@ -1,0 +1,42 @@
+.meta {
+    padding: 10px;
+}
+
+.author {
+    float: right;
+    color: #03CEA4;
+    font-weight: 600;
+}
+
+.date {
+    color: #03CEA4;
+    font-weight: 600;
+}
+
+.card-title {
+    font-size: 1.5em;
+}
+
+.card-discription {
+    font-size: 1.3em;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+.button {
+    padding: 5px 15px 8px 15px;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #FB4D3D;
+    border: #FB4D3D solid 1px;
+    text-align: center;
+    border-radius: 5px;
+    float: right;
+    margin: 10px 0 20px 0;
+}
+
+.button:hover {
+    background-color: #FB4D3D;
+    color: #ffffff;
+    transition: ease 300ms;
+}

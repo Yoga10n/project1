@@ -1,3 +1,7 @@
+@import url('logo.css');
+@import url('meta.css');
+@import url('nav.css');
+
 /*Mobile first*/
 
 body {
@@ -33,30 +37,6 @@ header {
     grid-template-columns: 1fr;
     grid-template-rows: 50px 50px;
     border-bottom: #dddddd solid 1px;
-}
-
-nav {
-    margin: auto;
-}
-
-.logo {
-    margin: auto;
-    font-size: 2.5em;
-    font-weight: 400;
-}
-
-.logo span {
-    font-size: .5em;
-}
-
-ul {
-    list-style-type: none;
-    padding-inline-start: 0px;
-}
-
-li {
-    display: inline;
-    margin: 5px;
 }
 
 main {
@@ -99,46 +79,23 @@ a.mainmenu:active {
     min-width: 100vw;
 }
 
-.meta {
-    padding: 10px;
-}
-
-.author {
-    float: right;
-    color: darkorchid;
-    font-weight: 600;
-}
-
-.date {
-    color: darkorchid;
-    font-weight: 600;
-}
-
-.card-title {
-    font-size: 1.2em;
-}
-
-.card-discription {
+figcaption {
+    display: block;
+    margin-top: 5px;
     font-size: 1.1em;
     font-weight: 500;
-}
-
-.button {
-    padding: 5px 15px 8px 15px;
-    font-size: 1.2em;
-    font-weight: 700;
-    color: rgb(38, 62, 168);
-    border: rgb(38, 62, 168) solid 1px;
     text-align: center;
-    border-radius: 5px;
-    float: right;
-    margin: 10px 0 20px 0;
+    color: #8a8a8a;
 }
 
-.button:hover {
-    background-color: rgb(38, 62, 168);
-    color: #ffffff;
-    transition: ease 300ms;
+q {
+    color: #CA1551;
+    font-weight: 600;
+}
+
+u {
+    color: #345995;
+    font-weight: 600;
 }
 
 
@@ -158,20 +115,6 @@ a.mainmenu:active {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 60px;
         grid-template-areas: "logo menu";
-    }
-    .logo {
-        grid-area: logo;
-        float: left;
-        margin-left: 10vw;
-        font-size: 2em;
-    }
-    .logo span {
-        font-size: .35em;
-    }
-    nav {
-        grid-area: menu;
-        float: right;
-        margin-right: 10vw;
     }
     main {
         padding: 35px;

@@ -1,0 +1,21 @@
+nav {
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+li {
+    display: inline;
+    margin: 5px;
+}
+
+@media(min-width: 600px) {
+    nav {
+        grid-area: menu;
+        float: right;
+        margin-right: 10vw;
+    }
+}
